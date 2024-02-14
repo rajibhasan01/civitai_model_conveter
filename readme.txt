@@ -1,0 +1,2 @@
+mkdir converted
+python convert_original_stable_diffusion_to_diffusers.py --checkpoint_path majicmixRealistic_v5.safetensors --from_safetensors --dump_path converted
